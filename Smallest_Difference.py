@@ -28,14 +28,19 @@ ptr2 = 0
 min = sys. maxsize
 
 while ptr1 < len(array1) and ptr2 < len(array2):
+    f = array1[ptr1]
+    s = array2[ptr2]
     curr_min = abs(array1[ptr1] - array2[ptr2])
-    if (array1[ptr1] < array2[ptr2]):
+   
+    if (array1[ptr1] < array2[ptr2]):        
         ptr1 += 1
     
-    else:
+    else:        
         ptr2 += 1
 
     if (curr_min < min):
-        min = curr_min
+        min = curr_min 
+        pair = [f,s]
 
-print(min)
+print(pair)
+
