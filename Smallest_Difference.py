@@ -39,7 +39,7 @@ while ptr1 < len(array1) and ptr2 < len(array2):
         ptr2 += 1
 
     if (curr_min < min):
-        min = curr_min 
+        min = curr_min
         pair = [f,s]
 
 print(pair)
