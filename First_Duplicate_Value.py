@@ -2,11 +2,19 @@
 Problem: Given an array of integers, find the first repeating element in it. We need to find the element that occurs more than once and whose index of first occurrence is smallest. 
 '''
 
-arr = [2, 1, 5, 2, 3, 3, 4]
+Solution 1:
 
-i=1
-while i < len(arr) -1:
-    if(arr[i] == a[i+1]):
-        print(index(arr[i]))
-        break
+array = [2, 1, 5, 2, 3, 3, 4]
+curr_index = []
+for i in range(len(array)):
+    for j in range(i+1, len(array)):
+        if (array[i] == array[j]):
+
+            curr_index.append(j)
+
+
+
+min_index = min(curr_index)
+print(array[min_index])
+    
 
