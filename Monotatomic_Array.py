@@ -9,7 +9,6 @@ array = [-1, -5, -10, -1100, -900, -1101, -1102, -9001]
 length = len(array) -1
 bool_value = False
 
-print(array[-1])
 if len(array) == 0 or len(array) == 1:
     bool_value = True
 
