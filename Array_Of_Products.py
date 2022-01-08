@@ -12,6 +12,8 @@ Output: [8,40,10,20]
 10 = 5*1*2
 20 = 5*1*4
 '''
+
+# Brute Force Approach
 a = [5, 1, 4, 2]
 product_lst = []
 for i in range(len(a)):
