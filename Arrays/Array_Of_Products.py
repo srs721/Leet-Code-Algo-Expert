@@ -13,7 +13,7 @@ Output: [8,40,10,20]
 20 = 5*1*4
 '''
 
-# Brute Force Approach
+# Brute Force Approach 0(n^2)
 a = [5, 1, 4, 2]
 product_lst = []
 for i in range(len(a)):
